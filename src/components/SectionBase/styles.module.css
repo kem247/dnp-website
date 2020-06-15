@@ -4,14 +4,14 @@
 @value borderDarkGray from layout;
 
 .sectionBase {
-  width: 75%;
-  height: 41.9375rem;
-  border: solid 0.0625rem borderDarkGray;
-  background-color: lightGray;
+  width: 77%;
+  height: 43.5rem;
+  border: solid 0.0625rem;
+  background-color: lightgray;
   margin-top: 2.1875rem;
 }
 
-.sectionBaseHeader {
+/* .sectionBaseHeader {
   width: 17.8125rem;
   height: 1.75rem;
   font-family: Helvetica;
@@ -23,8 +23,8 @@
   letter-spacing: normal;
   text-align: left;
   color: var(--black);
-}
-.weightedLine {
+} */
+/* .weightedLine {
   width: 64.8125rem;
   height: 41.9375rem;
   border: solid 0.0625rem borderDarkGray;
@@ -35,4 +35,4 @@
   height: 41.9375rem;
   border: solid 0.0625rem borderDarkGray;
   background-color: lightGray;
-}
+} */
