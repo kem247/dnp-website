@@ -40,10 +40,10 @@ module.exports = {
 
       tests: [
         {
-          id: "<TEST_PUBLIC_ID>",
+          id: "234",
         },
         {
-          id: "<TEST_PUBLIC_ID>",
+          id: "3434",
         },
       ],
     },
