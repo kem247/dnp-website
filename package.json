@@ -15,6 +15,7 @@
     "gatsby-plugin-react-helmet": "^3.1.24",
     "gatsby-plugin-sharp": "2.6.3",
     "gatsby-source-filesystem": "^2.1.56",
+    "gatsby-source-graphql": "^2.5.4",
     "gatsby-transformer-sharp": "2.5.2",
     "node-dogstatsd": "0.0.7",
     "prop-types": "^15.7.2",
@@ -56,7 +57,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "jest"
+    "test": "jest",
+    "datadog-ci-synthetics":  "--config ./app-env"
   },
   "repository": {
     "type": "git",
