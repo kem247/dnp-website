@@ -36,8 +36,10 @@ class LabelWrapper extends Component {
               sm={{ span: 12 }}
             >
               <div className={styles.labelHeader}>
-                <h1>Dataset Nutrition Label</h1>
-                <div>
+                <div className={styles.datasetTitle}>
+                  <h1>Dataset Nutrition Label</h1>
+                </div>
+                <div className={styles.subHeader}>
                   <h4>{this.props.label.overview.summary.datasetName}</h4>
                   <p>{this.props.label.overview.summary.createdBy}</p>
                 </div>

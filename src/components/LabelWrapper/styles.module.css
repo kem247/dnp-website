@@ -58,3 +58,19 @@
     width: 100%;
   }
 }
+
+@media (max-width: portraitMaxWidth) {
+  .labelHeader {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .datasetTitle {
+    width: 50%;
+    float: left;
+  }
+  .subHeader {
+    width: 50%;
+    float: left;
+  }
+}
