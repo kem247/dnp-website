@@ -8,8 +8,10 @@ class UseCases extends React.Component {
   constructor(props) {
     super(props)
     const useCases = this.props.useCasesStuff
+    const yes = useCases.predictions
     const thePreds = Object.keys(useCases.predictions)
-
+    console.log(["YES", ...thePreds])
+    console.log("UseCases", useCases)
     this.state = {
       thePreds,
       selectedAlerts: [],
