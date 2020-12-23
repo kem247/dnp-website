@@ -211,6 +211,7 @@ class AllAlerts extends Component {
   }
 
   render() {
+    console.log("propsAlerts", this.props.alerts)
     let countText = `${this.state.filtered.length} Alerts`
     if (this.state.selectedTab === TAB_NAMES.fyis) {
       countText = `${this.state.filteredFYIs.length} FYIs`
