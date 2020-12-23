@@ -16,6 +16,7 @@ class Selector extends Component {
 
   render() {
     console.log("filtPreds", this.props.filteredPreds)
+    console.log("predss", this.state.preds)
     return (
       <>
         <Row>

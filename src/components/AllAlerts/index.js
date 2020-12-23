@@ -114,7 +114,10 @@ class AllAlerts extends Component {
     else {
       let filtered = []
       let filteredFYIs = []
-
+      console.log(
+        "sAlerts",
+        this.state.selectedAlerts.filter(p => p.tags.includes(e.target.value))
+      )
       filtered = this.state.selectedAlerts.filter(p =>
         p.tags.includes(e.target.value)
       )
